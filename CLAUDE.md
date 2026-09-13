@@ -25,3 +25,4 @@ CI (`.github/workflows`) runs `npm install`, `npm run lint`, and `npm test` on e
 ## Conventions
 
 - Config comes from `.env` (git-ignored); `.env.example` documents the shape. No secrets belong in code or commits.
+- use async/await, not callbacks
